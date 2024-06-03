@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
             data.forEach((item, index) => {
                 const row = document.createElement('tr');
                 // add data to the row
-                row.innerHTML = `<td>${index + 1}</td><td>${item.nama}</td><td>${item.Lahir}</td><td>${item.kelas}</td>`;
+                row.innerHTML = `<td>${index + 1}</td><td>${item.nama}</td><td>${item.lahir}</td><td>${item.kelas}</td>`;
                 tableBody.appendChild(row);
             });
 
